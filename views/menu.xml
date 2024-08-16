@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+
+        <!-- Top menu item -->
+        <menuitem id="kedatech_menu_root" name="Kedatech" web_icon="kedatech_tech,static/description/icon.png" sequence="7"/>
+
+        <menuitem name="Kedatech Menu" id="kedatech_menu" parent="kedatech_menu_root" action="kedatech_menu_action"/>
+
+    </data>
+</odoo>
